@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+<title>Stripe Payment Demo</title> 
+<body> 
+<h3>Stripe Payment Demo</h3>
+    <form action="payment" method="POST"> 
+        <script
+            src="//checkout.stripe.com/v2/checkout.js"
+            class="stripe-button"
+            data-key="<%= key %>" 
+            data-amount="99900" 
+            data-currency="usd" 
+            data-name="Huimitu Shop" 
+            data-description="iPhone 13 Pro Max 256GB Green" 
+            data-locale="auto" > 
+        </script> 
+    </form> 
+</body> 
+</html>
